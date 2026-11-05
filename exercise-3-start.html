@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <style>
+    
+        body{
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 100vh;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        
+        }
+
+        .header {
+            background:#1e90ff;
+            box-shadow: 0 3px 2px  #0077ea;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            border-radius: 0.5rem;
+            color: white;
+            align-items: center;
+            padding-left: 1em;
+        }
+    
+        .middlebody {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: row;
+            gap: 1em;
+        }
+    
+        .main {
+            background: #3cb371;
+            box-shadow: 0 3px 2px     #2f8d59;
+            border-radius: 0.5rem;
+            flex-grow: 1;
+            gap: 1em;
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
+            color: white;
+        }
+    
+        .sidebar {
+            background: #ff6347;
+            box-shadow: 0 3px 2px      #e02200;
+            display: flex;
+            flex-direction: column;
+            width: 20em;
+            border-radius: 0.5rem;
+            color: white;
+            align-items: center;
+            padding-top: 1em;
+        }
+    
+        .item {
+            background:#2f8d59;
+            box-shadow: 0 3px 2px  #226741;
+            height: 100px;
+            gap: 1em;
+            height: 5rem;
+            width: 5rem;
+            border-radius: 0.5rem;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .footer {
+            background: #4169e1;
+            box-shadow: 0 3px 2px     #1d44b8;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            border-radius: 0.5rem;
+            color: white;
+            align-items: center;
+            padding-left: 1em;
+        }
+     
+        .items {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">Header</div>
+            <div class="middlebody">
+                <section class="main">
+                    MAIN 
+                    <div class="items">
+                        <div class="item">item</div>
+                        <div class="item">item</div>
+                        <div class="item">item</div>
+                        <div class="item">item</div>
+                        <div class="item">item</div>
+                        <div class="item">item</div>
+                        <div class="item">item</div>    
+                        <div class="item">item</div>    
+                        <div class="item">item</div>    
+                        <div class="item">item</div>    
+                        <div class="item">item</div>    
+                    </div>
+                </section>
+                <section class="sidebar">sidebar</section>
+            </div>
+            <div class="footer">Footer</div>
+        </div>
+    </body>
